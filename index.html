@@ -3,11 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reflekt</title>
+    <title>Reflekt - Personal Journal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    /<!-- Test -->
-    
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Reflekt App</h1>
+            <p>Your personal space to reflect and capture memories.</p>
+        </header>
+
+        <!-- Journal Entry Form -->
+        <section id="entry-form">
+            <h2>Create New Entry</h2>
+            <form>
+                <label for="entry-title">Title</label>
+                <input type="text" id="entry-title" name="entry-title" placeholder="Entry Title" required>
+
+                <label for="entry-content">Content</label>
+                <textarea name="entry-content" id="entry-content" rows="6" placeholder="Write your thoughts here..." required></textarea>
+
+                <button type="submit" id"save-entry>Save Entry</button>
+            </form>
+        </section>
+
+         <!-- Journal Entry Display -->
+        <section id="entry-display">
+            <h2>Your Journal Entries</h2>
+            <div id="entry-container">
+                <!-- Entries will be dynamically added here -->
+                <p id="no-entries">No entries yet. Start writing your reflections!</p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+<footer>
+    <!-- Add some footer info -->
+</footer>
 </html>
