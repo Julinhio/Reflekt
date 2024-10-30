@@ -3,6 +3,7 @@
 A daily log to track progress, challenges, and key learnings during the development of Reflekt.
 
 ---
+## Sample Entries
 
 ## **[DATE: YYYY-MM-DD]**
 
@@ -24,10 +25,6 @@ A daily log to track progress, challenges, and key learnings during the developm
 
 ---
 
-## Sample Entries
-
----
-
 ## **2024-10-30**
 
 ### **Summary of Work**
@@ -36,31 +33,19 @@ A daily log to track progress, challenges, and key learnings during the developm
 - Create a repository and push your initial setup onto GitHub.
 - Set up the basic folder structure for the Reflekt project, including HTML, CSS, and JavaScript files.
 - Created the initial layout in HTML with placeholders for the journal entry form and entry list.
+- Added basic HTML structure and initial CSS styles for Reflekt layout
 
 ### **Challenges & Solutions**
-- **Challenge**: Figuring out how to organize HTML elements for clean layout.
-  - **Solution**: Used divs with semantic section tags for better structure; referred to layout examples online.
+- **Challenge**: Remembering terminal commands to push on GitHub. Figuring out how to organize HTML elements for clean layout.
+  - **Solution**: Asked ChatGPT. Used divs with semantic section tags for better structure; referred to layout examples online.
 
 ### **Key Learnings**
 - The value of organizing HTML elements logically to make CSS styling easier later.
 - Markdown basics for better project documentation in README files.
 
 ### **Next Steps**
-- Begin styling the layout with CSS to make it visually appealing and user-friendly.
+- Finish styling the layout with CSS to make it visually appealing and user-friendly.
+- Start adding functionality
 
 ---
 
-## **2023-11-01**
-
-### **Summary of Work**
-- 
-
-### **Challenges & Solutions**
-- **Challenge**: 
-  - **Solution**: 
-
-### **Key Learnings**
-- 
-
-### **Next Steps**
-- 
