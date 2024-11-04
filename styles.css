@@ -1,5 +1,5 @@
-/* Basic Reset */
 
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -19,9 +19,135 @@ body {
 /* Main Container */
 .container {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     background: white;
     padding: 40px;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header h1 {
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* Journal Entry Form */
+#entry-form {
+    margin-bottom: 50px;
+}
+
+#entry-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin: 20px 0;;
+}
+
+#entry-form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#entry-form input[type="text"],
+#entry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+
+/* Journal Entry Display */
+#entry-display h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#entries-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.entry {
+    background-color: #f9f9fb;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.entry h3 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.entry p {
+    color: #555;
+    margin-top: 5px;
+}
+
+#no-entries {
+    color: #666;
+    text-align: center;
+    padding: 20px;
+}
+
+/* General Button Style */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+
+/* Save Button Style */
+#save-entry {
+    width: 100%;
+    background-color: #5cb85c;
+    color: white;
+}
+
+#save-entry:hover {
+    background-color: #4cae4c;
+}
+
+/* Delete Button Style */
+.delete-entry {
+    width: 15%;
+    background-color: #edd8cd;
+    margin-top: 10px;
+}
+
+.delete-entry:hover {
+    background-color: #c9302c;
+}
+
+/* Edit Button Style */
+.edit-entry {
+    width: 15%;
+    background-color: #edd8cd;
+    margin-top: 10px;
+}
+
+.edit-entry:hover {
+    background-color: #F0F66E;
 }

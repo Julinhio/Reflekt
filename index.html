@@ -16,6 +16,8 @@
             <p>Your personal space to reflect and capture memories.</p>
         </header>
 
+        <hr>
+
         <!-- Journal Entry Form -->
         <section id="entry-form">
             <h2>Create New Entry</h2>
@@ -24,18 +26,20 @@
                 <input type="text" id="entry-title" name="entry-title" placeholder="Entry Title" required>
 
                 <label for="entry-content">Content</label>
-                <textarea name="entry-content" id="entry-content" rows="6" placeholder="Write your thoughts here..." required></textarea>
+                <textarea name="entry-content" id="entry-content" rows="6" cols="50" placeholder="Write your thoughts here..." required></textarea>
 
-                <button type="submit" id"save-entry>Save Entry</button>
+                <button type="submit" id="save-entry">Save</button>
             </form>
         </section>
 
+        <hr>
+
          <!-- Journal Entry Display -->
         <section id="entry-display">
-            <h2>Your Journal Entries</h2>
+            <h2>Journal Entries</h2>
             <div id="entry-container">
                 <!-- Entries will be dynamically added here -->
-                <p id="no-entries">No entries yet. Start writing your reflections!</p>
+                <p id="no-entries">No entries yet. Start Reflekting! ✨💡🌟</p>
             </div>
         </section>
 
@@ -46,5 +50,6 @@
 </body>
 <footer>
     <!-- Add some footer info -->
+    <!-- © 2024 Julinh.io. All rights reserved.-->
 </footer>
 </html>
