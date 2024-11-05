@@ -26,24 +26,35 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Header */
-header h1 {
-    font-size: 3rem;
-    color: #333;
+header {
     text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd; /* Soft divider line */
 }
 
-header p {
-    font-size: 1.2rem;
-    text-align: center;
-    color: #666;
-    margin-bottom: 30px;
-    margin-top: 10px;
+.logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 /* Journal Entry Form */
 #entry-form {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 50px; /* Adjust padding as needed */
+    border-bottom: 1px solid #ddd;
 }
 
 #entry-form h2 {
@@ -117,6 +128,8 @@ button {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.6s;
+    width: auto;
+    min-width: 80px;
 }
 
 /* Save Button Style */
@@ -138,7 +151,7 @@ button {
 }
 
 .delete-entry:hover {
-    background-color: #c9302c;
+    background-color: #F8434C;
 }
 
 /* Edit Button Style */
@@ -150,4 +163,13 @@ button {
 
 .edit-entry:hover {
     background-color: #F0F66E;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd; /* Soft top border for separation */
 }

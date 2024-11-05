@@ -8,19 +8,22 @@
 </head>
 <body>
 
+
     <!-- Main Container -->
     <div class="container">
+
         <!-- Header -->
         <header>
-            <h1>Reflekt App</h1>
-            <p>Your personal space to reflect and capture memories.</p>
+            <h1 class="visually-hidden">Reflekt - Personal Journal App</h1>
+            <img src="images/logo.png" alt="Reflekt Logo" class="logo">
         </header>
 
-        <hr>
+
 
         <!-- Journal Entry Form -->
         <section id="entry-form">
             <h2>Create New Entry</h2>
+            <p>Your personal space to reflect and capture memories.</p>
             <form>
                 <label for="entry-title">Title</label>
                 <input type="text" id="entry-title" name="entry-title" placeholder="Entry Title" required>
@@ -32,7 +35,7 @@
             </form>
         </section>
 
-        <hr>
+
 
          <!-- Journal Entry Display -->
         <section id="entry-display">
@@ -42,14 +45,13 @@
                 <p id="no-entries">No entries yet. Start Reflekting! ✨💡🌟</p>
             </div>
         </section>
-
+        <footer>
+            <!-- Add some footer info -->
+            <p>© 2024 <a href="https://github.com/Julinhio/Reflekt">Julinh.io</a>. All rights reserved.</p>
+        </footer>
     </div>
 
     <script src="script.js"></script>
 
 </body>
-<footer>
-    <!-- Add some footer info -->
-    <!-- © 2024 Julinh.io. All rights reserved.-->
-</footer>
 </html>
