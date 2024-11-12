@@ -53,17 +53,3 @@ Feel free to open issues or create pull requests. Contributions are welcome!
 
 ## License
 This project is open-source and available under the [MIT License](./LICENSE).
-
-### Explanation of Each Section:
-1. **Title and Overview**: Introduces the project.
-2. **Features**: Highlights the main functionalities.
-3. **Setup and Installation**: Basic setup instructions to help get started quickly.
-4. **Usage**: Explains how the app works from the user’s perspective.
-5. **Project Phases**: Lists the project phases (you could link this to your Word document for detailed reference).
-6. **Future Enhancements**: Ideas for additional features or improvements.
-7. **Contributing**: If you want others to help, this tells them how.
-8. **License**: Most projects include a license; the [MIT License](https://opensource.org/licenses/MIT) is popular for open-source.
-
-### Saving and Viewing:
-- Save this file as `README.md` in the Reflekt folder.
-- You can view the formatted version directly on GitHub if you push the file to a repo, or use any Markdown viewer to see it locally.

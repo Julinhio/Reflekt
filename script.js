@@ -1,10 +1,13 @@
-// Select DOM elements
+
+// Step 1: Select and Prepare DOM Elements
 const titleInput = document.getElementById('entry-title');
 const contentInput = document.getElementById('entry-content');
 const saveButton = document.getElementById('save-entry');
-const entriesContainer = document.getElementById('entry-container'); // Corrected ID here
+const entriesContainer = document.getElementById('entry-container');
 
-// Event listener for Save button
+let editingEntry = null; // To track the entry being edited
+
+// Step 2: Event Listener for Saving Entries
 saveButton.addEventListener('click', function(event) {
     event.preventDefault(); // Prevents form from refreshing the page
     const title = titleInput.value.trim(); // Get and trim title input
@@ -34,9 +37,10 @@ saveButton.addEventListener('click', function(event) {
 
         loadEntries(); // Refresh the display with updated entries
 
-        // Clear the input fields
         titleInput.value = '';
-        contentInput.value = '';
+        contentInput.value = ''; // Clear both input fields
+
+    // Otherwise, displays alert to fill both fields 
     } else {
         alert('Please fill out both the title and content fields.');
     }
@@ -92,7 +96,6 @@ function deleteEntry(entryToDelete) {
     loadEntries();
 }
 
-let editingEntry = null; // To track the entry being edited
 
 function editEntry(entry) {
     // Set the form fields with the entry's current title and content
